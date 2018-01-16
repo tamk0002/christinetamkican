@@ -54,6 +54,9 @@ h1, h2, h3, h4, h5, h6 {
     .carousel-indicators .active {
         background-color: #fbc02d;
     }
+    .carousel-control-prev-icon {
+        color: #333;
+    }
 }.map iframe {
     pointer-events: none;
 }
@@ -230,6 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 .portfolio-item .caption .caption-content h2 {
     font-size: 1.2rem;
     text-transform: uppercase;
+    color: #fdd835;
 }
 .portfolio-item .caption .caption-content p {
     font-weight: 300;
@@ -261,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
     clip-path: inset(2rem);
 }
 .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, .9);
+    background-color: rgba(251, 192, 45, .9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
 }
